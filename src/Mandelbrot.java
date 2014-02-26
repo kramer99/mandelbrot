@@ -53,13 +53,13 @@ public class Mandelbrot {
 	private static final DecimalFormat twoDecimalPlaces = new DecimalFormat("0.00");
 	private static Color[] colors = new Color[128];
 	
-    double startX = -2;
-    double endX = 1;
-    double startY = -1;
-    double endY = 1;
+	double startX = -2;
+	double endX = 1;
+	double startY = -1;
+	double endY = 1;
 	
-    private ExecutorService executor;
-    
+	private ExecutorService executor;
+
 	private Image image;
 	private Canvas canvas;
 	private Shell shell;
