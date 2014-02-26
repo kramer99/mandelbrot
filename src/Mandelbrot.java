@@ -52,33 +52,6 @@ public class Mandelbrot {
 	private static final int TIMER_INTERVAL = 50;
 	private static final DecimalFormat twoDecimalPlaces = new DecimalFormat("0.00");
 	private static Color[] colors = new Color[128];
-//	private Color[] colors = {
-//			new Color(0,0,200),
-//			new Color(255,218,185),
-//			new Color(255,128,128),
-//			new Color(128,128,255),
-//			new Color(192,160,175),
-//			new Color(255,200,100),
-//			new Color(0,0,175),
-//			new Color(0,255,255),
-//			new Color(192,0,128),
-//			new Color(255,0,0),
-//			new Color(128,255,64),
-//			new Color(64,255,64),
-//			new Color(0,170,0),
-//			new Color(0,128,192),
-//			new Color(255,192,0),
-//			new Color(255,255,255),
-//			new Color(255,0,0),
-//			new Color(0,0,0),
-//			new Color(0,0,0),
-//			new Color(255,99,0),
-//			new Color(204,255,99),
-//			new Color(33,255,99),
-//			new Color(99,66,204),
-//			new Color(99,00,99),
-//			new Color(255,255,255)
-//	};
 	
     double startX = -2;
     double endX = 1;
